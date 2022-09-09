@@ -1,0 +1,16 @@
+C:\Users\custo\Desktop\Ynov\challenge-cs\bin\Debug\net5.0\CSharpDiscovery.exe
+C:\Users\custo\Desktop\Ynov\challenge-cs\bin\Debug\net5.0\CSharpDiscovery.deps.json
+C:\Users\custo\Desktop\Ynov\challenge-cs\bin\Debug\net5.0\CSharpDiscovery.runtimeconfig.json
+C:\Users\custo\Desktop\Ynov\challenge-cs\bin\Debug\net5.0\CSharpDiscovery.runtimeconfig.dev.json
+C:\Users\custo\Desktop\Ynov\challenge-cs\bin\Debug\net5.0\CSharpDiscovery.dll
+C:\Users\custo\Desktop\Ynov\challenge-cs\bin\Debug\net5.0\ref\CSharpDiscovery.dll
+C:\Users\custo\Desktop\Ynov\challenge-cs\bin\Debug\net5.0\CSharpDiscovery.pdb
+C:\Users\custo\Desktop\Ynov\challenge-cs\obj\Debug\net5.0\CSharpDiscovery.csproj.AssemblyReference.cache
+C:\Users\custo\Desktop\Ynov\challenge-cs\obj\Debug\net5.0\CSharpDiscovery.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\custo\Desktop\Ynov\challenge-cs\obj\Debug\net5.0\CSharpDiscovery.AssemblyInfoInputs.cache
+C:\Users\custo\Desktop\Ynov\challenge-cs\obj\Debug\net5.0\CSharpDiscovery.AssemblyInfo.cs
+C:\Users\custo\Desktop\Ynov\challenge-cs\obj\Debug\net5.0\CSharpDiscovery.csproj.CoreCompileInputs.cache
+C:\Users\custo\Desktop\Ynov\challenge-cs\obj\Debug\net5.0\CSharpDiscovery.dll
+C:\Users\custo\Desktop\Ynov\challenge-cs\obj\Debug\net5.0\ref\CSharpDiscovery.dll
+C:\Users\custo\Desktop\Ynov\challenge-cs\obj\Debug\net5.0\CSharpDiscovery.pdb
+C:\Users\custo\Desktop\Ynov\challenge-cs\obj\Debug\net5.0\CSharpDiscovery.genruntimeconfig.cache

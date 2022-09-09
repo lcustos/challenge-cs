@@ -1,0 +1,16 @@
+C:\Users\custo\Desktop\Ynov\challenge-cs\bin\Debug\net5.0\challenge-cs.exe
+C:\Users\custo\Desktop\Ynov\challenge-cs\bin\Debug\net5.0\challenge-cs.deps.json
+C:\Users\custo\Desktop\Ynov\challenge-cs\bin\Debug\net5.0\challenge-cs.runtimeconfig.json
+C:\Users\custo\Desktop\Ynov\challenge-cs\bin\Debug\net5.0\challenge-cs.runtimeconfig.dev.json
+C:\Users\custo\Desktop\Ynov\challenge-cs\bin\Debug\net5.0\challenge-cs.dll
+C:\Users\custo\Desktop\Ynov\challenge-cs\bin\Debug\net5.0\ref\challenge-cs.dll
+C:\Users\custo\Desktop\Ynov\challenge-cs\bin\Debug\net5.0\challenge-cs.pdb
+C:\Users\custo\Desktop\Ynov\challenge-cs\obj\Debug\net5.0\challenge-cs.csproj.AssemblyReference.cache
+C:\Users\custo\Desktop\Ynov\challenge-cs\obj\Debug\net5.0\challenge-cs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\custo\Desktop\Ynov\challenge-cs\obj\Debug\net5.0\challenge-cs.AssemblyInfoInputs.cache
+C:\Users\custo\Desktop\Ynov\challenge-cs\obj\Debug\net5.0\challenge-cs.AssemblyInfo.cs
+C:\Users\custo\Desktop\Ynov\challenge-cs\obj\Debug\net5.0\challenge-cs.csproj.CoreCompileInputs.cache
+C:\Users\custo\Desktop\Ynov\challenge-cs\obj\Debug\net5.0\challenge-cs.dll
+C:\Users\custo\Desktop\Ynov\challenge-cs\obj\Debug\net5.0\ref\challenge-cs.dll
+C:\Users\custo\Desktop\Ynov\challenge-cs\obj\Debug\net5.0\challenge-cs.pdb
+C:\Users\custo\Desktop\Ynov\challenge-cs\obj\Debug\net5.0\challenge-cs.genruntimeconfig.cache
