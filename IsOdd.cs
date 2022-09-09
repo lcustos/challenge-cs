@@ -4,7 +4,7 @@ namespace CSharpDiscovery.Quest01
     {
         public static bool IsOdd(int a)
         {
-            if ((a & 1) == 0)
+            if ((a % 2) == 0)
             {
                 return true;
             }
