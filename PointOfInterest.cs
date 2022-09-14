@@ -19,6 +19,30 @@ public class PointOfInterest
         return String.Format("{0} (Lat={1}, Long={2})", Name, Latitude, Longitude);
     }
     
+    public int GetDistance(PointOfInterest other) {
+        return (int) calculate(this, other);
+    }
+    public static int GetDistance(PointOfInterest p1, PointOfInterest p2) {
+        return (int) calculate(p1, p2);
+    }
+    
+    private static double degreesToRadians(double degrees) {
+        return degrees * Math.PI / 180;
+    }
+    private static double calculate(PointOfInterest p1, PointOfInterest p2) {
+        int earthRadiusKm = 6371;
+        double dLat = degreesToRadians(p2.Latitude - p1.Latitude);
+        double dLon = degreesToRadians(p2.Longitude - p1.Longitude);
+
+        double lat1 = degreesToRadians(p1.Latitude);
+        double lat2 = degreesToRadians(p2.Latitude);
+
+        double a = Math.Sin(dLat / 2) * Math.Sin(dLat / 2) + Math.Sin(dLon / 2) * Math.Sin(dLon / 2) * Math.Cos(lat1) * Math.Cos(lat2);
+        double c = 2 * Math.Atan2(Math.Sqrt(a), Math.Sqrt(1 - a));
+        return Math.Round(earthRadiusKm * c);
+    }
+    
+    
     public PointOfInterest() {
         Name = "Bordeaux Ynov Campus";
         Latitude = 44.854186;
