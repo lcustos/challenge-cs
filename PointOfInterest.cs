@@ -26,16 +26,13 @@ public class PointOfInterest
         return (int) calculate(p1, p2);
     }
     
-    private static double degreesToRadians(double degrees) {
-        return degrees * Math.PI / 180;
-    }
     private static double calculate(PointOfInterest p1, PointOfInterest p2) {
         int earthRadiusKm = 6371;
-        double dLat = degreesToRadians(p2.Latitude - p1.Latitude);
-        double dLon = degreesToRadians(p2.Longitude - p1.Longitude);
+        double dLat = (p2.Latitude - p1.Latitude)* Math.PI / 180;
+        double dLon = (p2.Longitude - p1.Longitude)* Math.PI / 180;
 
-        double lat1 = degreesToRadians(p1.Latitude);
-        double lat2 = degreesToRadians(p2.Latitude);
+        double lat1 = p1.Latitude * Math.PI / 180;
+        double lat2 = p2.Latitude * Math.PI / 180;
 
         double a = Math.Sin(dLat / 2) * Math.Sin(dLat / 2) + Math.Sin(dLon / 2) * Math.Sin(dLon / 2) * Math.Cos(lat1) * Math.Cos(lat2);
         double c = 2 * Math.Atan2(Math.Sqrt(a), Math.Sqrt(1 - a));
