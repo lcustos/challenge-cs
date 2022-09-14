@@ -1,3 +1,5 @@
+using System;
+
 namespace CSharpDiscovery.Quest03
 {
 public class PointOfInterest
@@ -6,6 +8,11 @@ public class PointOfInterest
     public double Latitude { get; set; } = 0.0;
     public double Longitude { get; set; } = 0.0;
     public string Name { get; set; } = "";
+
+    public string GetGoogleMapsUrl()
+    {
+        return String.Format(GoogleMapsUrlTemplate, Name.Replace(" ", "+"), Latitude, Longitude);
+    }
     public PointOfInterest() {
         Name = "Bordeaux Ynov Campus";
         Latitude = 44.854186;
