@@ -13,6 +13,12 @@ public class PointOfInterest
     {
         return String.Format(GoogleMapsUrlTemplate, Name.Replace(" ", "+"), Latitude, Longitude);
     }
+    
+    public override string ToString()
+    {
+        return String.Format("{0} (Lat={1}, Long={2})", Name, Latitude, Longitude);
+    }
+    
     public PointOfInterest() {
         Name = "Bordeaux Ynov Campus";
         Latitude = 44.854186;
