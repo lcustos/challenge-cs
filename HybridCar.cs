@@ -21,7 +21,7 @@ namespace CSharpDiscovery.Quest04
 
         public void Recharge()
         {
-            FuelLevel = 100;
+            BatteryLevel = 100;
         }
 
         public int GetBatteryLevel()
