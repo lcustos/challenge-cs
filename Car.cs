@@ -5,12 +5,12 @@ namespace CSharpDiscovery.Quest04
 {
     public class Car : Vehicule
     {
-        public string Model = "";
+        public string Model = "Unknow";
         public Car()
         {
             Brand = "Unknow";
         }
-        public Car(string _Model, string _Brand,string _Color, int _CurrentSpeed)
+        public Car(string _Model, string _Brand,string _Color, int _CurrentSpeed = 0)
         {
             Brand = _Brand;
             Model = _Model;
